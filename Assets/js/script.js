@@ -23,4 +23,4 @@ $(function () {
   var today = dayjs();
 $('#currentDay').text(today.format('dddd, MMMM Do'));
 });
-//ADD PLUG IN FOR Do
+//ADD PLUG IN FOR 'Do'

@@ -18,7 +18,7 @@
       href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="./Assets/css/style.css" />
     <title>Work Day Scheduler</title>
   </head>
 
@@ -38,7 +38,7 @@
         in the finished product. Remember to delete this comment once the
         code is implemented.
         -->
-
+        <!--TIME CONTAINERS-->
       <!-- Example of a past time block. The "past" class adds a gray background color. -->
       <div id="hour-9" class="row time-block past">
         <div class="col-2 col-md-1 hour text-center py-3">9AM</div>
@@ -72,7 +72,12 @@
       integrity="sha256-iu/zLUB+QgISXBLCW/mcDi/rnf4m4uEDO0wauy76x7U="
       crossorigin="anonymous"
     ></script>
+    <script src="path/to/dayjs/plugin/advancedFormat"></script>
+<!-- Load plugin as window.dayjs_plugin_NAME -->
+    <script>
+    dayjs.extend(window.dayjs_plugin_today)
+    </script>
 
-    <script src="script.js"></script>
+    <script src="/Assets/js/script.js"></script>
   </body>
 </html>
