@@ -12,5 +12,7 @@ Each time block also has a text field that can be saved in local storage.
 
 The link to access the website and a screenshot of the page is below...
 
+https://petarlo.github.io/Dynamic-Calendar-App/
+
 ![A user clicks on slots on the color-coded calendar and edits the events.](./Assets/05-third-party-apis-homework-demo.gif)
 
