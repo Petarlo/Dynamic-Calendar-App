@@ -6,7 +6,7 @@ The aim of this challenge was build on existing HTML and CSS code and use API's 
 
 The planner shows todays date at the top of the screen and the timeblock colour changes depending on the time of day (grey for past, red for current and green for future).
 
-Each time block also has a text field that can be saved in local storage.
+Each timeblock also has a text field that can be saved in local storage.
 
 ## Usage
 
@@ -14,5 +14,5 @@ The link to access the website and a screenshot of the page is below...
 
 https://petarlo.github.io/Dynamic-Calendar-App/
 
-![A user clicks on slots on the color-coded calendar and edits the events.](./Assets/05-third-party-apis-homework-demo.gif)
+![A user clicks on slots on the color-coded calendar and edits the events.](./Assets/Images/Work%20Day%20Scheduler.mp4)
 
