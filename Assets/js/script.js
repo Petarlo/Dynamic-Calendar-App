@@ -21,20 +21,19 @@
   //
   
   
-  $(document).ready(function() {
+  $(document).ready(function () {
 
       // TODO: Add code to display the current date in the header of the page.
   var today = dayjs();
-$('#currentDay').text(today.format('dddd, MMMM DD'));
+  $('#currentDay').text(today.format('dddd, MMMM DD'));
 
 function timeTracker() {
   //get current number of hours.
   var timeNow = dayjs().format("HH");
-  console.log(timeNow);
 
   // loop over time blocks
   $(".time-block").each(function () {
-      var blockTime = parseInt($(this).attr("id").split("hour")[1]);
+    var blockTime = $(this).attr("id").split("-")[1];
 
       // To check the time and add the classes for background indicators
       if (blockTime < timeNow) {
@@ -53,7 +52,7 @@ function timeTracker() {
           $(this).addClass("future");
 
       }
-  })
+  });
 }
 
 //grabs values from time and value divs and saves them to local storage
@@ -62,7 +61,7 @@ $(".saveBtn").click (function (event) {
   var text = $(this).siblings(".").val();
   var time = $(this).parent().attr("id");
   localStorage.setItem(time, text);
-})
+});
 
 //retrieves items from local storage and sets them in proper places
 $("#hour-09 .description").val(localStorage.getItem("09"));
@@ -76,6 +75,5 @@ $("#hour-16 .description").val(localStorage.getItem("16"));
 $("#hour-17 .description").val(localStorage.getItem("17"));
 
 timeTracker();
+
 });
-
-
