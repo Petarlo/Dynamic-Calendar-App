@@ -69,6 +69,7 @@ textarea {
 .saveBtn:hover {
   font-size: 20px;
   transition: all 0.3s ease-in-out;
+  box-shadow: blue 0 0 10px;
 }
 
 @media screen and (max-width: 768px), screen and (max-width: 575px) {
