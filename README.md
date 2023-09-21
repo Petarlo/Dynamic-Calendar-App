@@ -14,5 +14,7 @@ The link to access the website and a screenshot of the page is below...
 
 https://petarlo.github.io/Dynamic-Calendar-App/
 
-![A user clicks on slots on the color-coded calendar and edits the events.](./Assets/Images/Work%20Day%20Scheduler.mp4)
+![Video demonstration](./Assets/Images/Work%20Day%20Scheduler.mp4)
+
+![Screenshot of application](./Assets/Images/Screenshot.png)
 
